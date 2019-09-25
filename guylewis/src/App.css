@@ -1,14 +1,11 @@
 .App {
-
-  
-  background-color: #000000;
-  background-size: cover;
+max-height: 100vh;
 }
 
 
 
 .App-header {
-  background-color: #282c34;
+ 
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,25 +20,42 @@
 background-color: black
 }
 
-#Brand{
+.Links{
 font-family: 'Rock Salt', cursive;
-font-size: 200px;
+
+/* display: flex; */
 justify-content: flex-end;
 box-shadow: 0px 0px 20px 10px black;
 border-top: solid;
 border-top-color: #000000;
 }
+.NavIcons>.nav-link{
+  /* margin-right: 10px; */
+  /* padding: 2px; */
+  font-size: 40px;
+  color: black !important;
+  display: flex !important;
+  margin: auto;
+  /* align-items: flex-start; */
+  float: left;
+  width: 100%;
+}
+
+
  
 .navbar-brand{
   font-size: 20px;
   text-shadow: -3px 4px 4px black;
+  /* margin: 10px; */
 }
 .App-link {
   color: #09d3ac;
 }
 
-img{
-  max-width: 100%;
+.Background{
+  min-width: 100%;
+  min-height: 100vh;
+
   
 }
 
@@ -61,11 +75,17 @@ td{
   font-family: 'Special Elite';
   padding: 0%;
   /* display: inline-table; */
- margin: 4px;
-
-  
+ margin: 4px;  
 }
+@media only screen and (max-width:399px){
+  .NavIcons{
+    width: 0%;
+  }
+
+}
+
 #top{
+
   box-shadow: 0px 25px 2.5rem .5em black;
   border-bottom: solid;
   border-bottom-color: #000000;

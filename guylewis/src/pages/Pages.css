@@ -1,0 +1,103 @@
+
+
+
+
+.App {
+    max-height: 100vh;
+    }
+    
+    
+    
+    .App-header {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: calc(10px + 2vmin);
+      color: white;
+      
+    }
+    
+    
+    
+    .Links{
+    font-family: 'Rock Salt', cursive;
+    
+    /* display: flex; */
+    justify-content: flex-end;
+    box-shadow: 0px 0px 20px 10px black;
+    border-top: solid;
+    border-top-color: #000000;
+    }
+
+
+    .NavIcons>.nav-link{
+      /* margin-right: 10px; */
+      /* padding: 2px; */
+      font-size: 40px;
+      color: black !important;
+      display: flex !important;
+      margin: auto;
+      /* align-items: flex-start; */
+      float: left;
+      width: 100%;
+    }
+    
+    
+     
+    .navbar-brand{
+      font-size: 20px;
+      text-shadow: -3px 4px 4px black;
+      /* margin: 10px; */
+    }
+   
+    
+       
+    
+    body{
+      width: 100%;
+      min-height: 100vh;
+      background: url('../components/images/background.jpeg');
+      background-size: cover;
+    }
+    
+    .nav-link{
+      font-size: 25px;
+      font-family: 'Special Elite';
+      padding: 0%;
+      /* display: inline-table; */
+     margin: 4px;  
+    }
+
+
+    @media only screen and (max-width:399px){
+      .NavIcons{
+        width: 0%;
+      }
+    
+    }
+    
+    /* #top{
+    
+      box-shadow: 0px 25px 2.5rem .5em black;
+      border-bottom: solid;
+      border-bottom-color: #000000; */
+    
+    
+    /* nav#top {
+    } */
+    
+    
+    
+    
+    .col{
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;  
+      margin: 0% !important;
+      padding: 0% !important; 
+      background-image: cover;
+    }
+    
+   
